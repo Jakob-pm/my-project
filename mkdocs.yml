@@ -1,0 +1,13 @@
+site_name: my-project
+site_url: https://example.com/
+nav:
+    - Home: index.md
+    - About: about.md
+    - license: license.md
+    - shortcuts: shortcuts.md
+    - MIB3OI project: MIB3OI.md
+    - vocabulary: vocabulary.md
+
+theme:
+  name: null
+  custom_dir: 'cinder'
