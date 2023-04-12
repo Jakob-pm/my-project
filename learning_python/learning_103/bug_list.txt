@@ -1,0 +1,168 @@
+提示：
+如果文本中有中文，注意检查中文逗点，很可能出现在这里
+bug来源：中文符号、空格、名称不对应、input和output搞混，少写一个括号
+# 容易把i误写成1
+
+001
+wb = xlwt.Workbook() #Workbook 大写
+
+002
+NameError: name 'wd' is not defined. Did you mean: 'wb'?
+上下字母写错，出现过的参数尽量粘贴
+
+
+003
+AttributeError: module 'xlrd' has no attribute 'open_Workbook'. Did you mean: 'open_workbook'?
+
+
+004
+AttributeError: 'Sheet' object has no attribute 'colos'. Did you mean: 'ncols'?
+
+005
+AttributeError: 'Worksheet' object has no attribute 'col_values'
+
+为什么同一个程序中有的workbook带有sheet_names属性而有的没有?
+经过反复尝试，发现只有读取的workbook才有该属性，
+分析：用xlrd.open_workbook打开的excel属性是<class 'xlrd.book.Book'>
+而copy之后打开的excel属性是<class 'xlwt.Workbook.Workbook'>
+
+措施：import xlrt模块试一下-->不行
+另一个方向，找到xlwt.Workbook.Workbook这个类的所有属性和方法
+参考：https://blog.csdn.net/weixin_39802519/article/details/111418730
+没有结果，忽略该bug
+
+006
+Traceback (most recent call last):
+  File "/Users/jakob_pc/PycharmProjects/learning python/learing_002/103_day1.py", line 110, in <module>
+    sh.write(0,1,'Test_altered',ft)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/xlwt/Worksheet.py", line 1088, in write
+    self.row(r).write(c, label, style)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/xlwt/Row.py", line 229, in write
+    self.__adjust_height(style)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/xlwt/Row.py", line 59, in __adjust_height
+    twips = style.font.height
+AttributeError: 'Font' object has no attribute 'font'
+已解决
+
+
+007
+AttributeError: type object 'Pattern' has no attribute 'SOLOD_PATTERN'. Did you mean: 'SOLID_PATTERN'?
+写错单词
+
+008
+random
+Traceback (most recent call last):
+  File "/Users/jakob_pc/PycharmProjects/learning python/learing_002/test_random.py", line 14, in <module>
+    num = random.randint(min_val, max_val)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/random.py", line 370, in randint
+    return self.randrange(a, b+1)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/random.py", line 325, in randrange
+    istop = _index(stop)
+KeyboardInterrupt
+
+009 openpyxl
+Traceback (most recent call last):
+  File "/Users/jakob_pc/PycharmProjects/learning python/learing_002/test_xls.py", line 4, in <module>
+    workbook = openpyxl.load_workbook("/Users/jakob_pc/Desktop/Python实践/test_xl_file_03.xlsx")
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/openpyxl/reader/excel.py", line 344, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/openpyxl/reader/excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/openpyxl/reader/excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/zipfile.py", line 1267, in __init__
+    self._RealGetContents()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/zipfile.py", line 1334, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+
+
+010 openpyxl
+openpyxl.utils.exceptions.InvalidFileException: openpyxl does not support the old .xls file format, please use xlrd to read this file, or convert it to the more recent .xlsx file format.
+openpyxl不支持xls格式
+
+
+011 openpyxl
+不推荐使用旧的函数或方法
+DeprecationWarning: Call to deprecated function get_sheet_by_name (Use wb[sheetname]).
+https://blog.csdn.net/weixin_43210113/article/details/107557241
+
+
+012
+underline的值必须为：
+{'double', 'single', 'singleAccounting', 'doubleAccounting'}
+而不能为True
+
+013
+sh1.column_dimensions[2].width = 50
+改为：
+sh1.column_dimensions['B'].width = 50
+TypeError: <class 'openpyxl.worksheet.dimensions.ColumnDimension'>.index should be <class 'str'> but value is <class 'int'>
+
+014
+单词拼写错误❌
+AttributeError: 'PieChart' object has no attribute 'add_date'. Did you mean: 'add_data'?
+
+015
+带's'问题
+TypeError: ChartBase.add_data() got an unexpected keyword argument 'title_from_data'
+
+016
+不理解
+UserWarning: Cannot parse header or footer so it will be ignored
+  warn("""Cannot parse header or footer so it will be ignored""")
+
+
+017
+string不能互减
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+
+018
+注意参数前后的引用
+NameError: name 'sh' is not defined. Did you mean: 'sh1'?
+
+019
+ValueError: Cells cannot be copied from other worksheets
+-->解法:copy一下
+from xlutils.copy import copy
+read_book = xlrd.open_workbook('/Users/jakob_pc/Desktop/Python实践/test_xl_file.csv')
+print(type(read_book)) # <class 'xlrd.book.Book'>
+wb = copy(read_book)
+不是一个逻辑，行不通
+-->换一个思路：
+如果不copy，直接搞会怎样？
+直接需要下放到cell级别处理，太麻烦
+--> 解决：
+temp_sh = wb.copy_worksheet(sh1)
+
+
+020
+单词拼写错误❌
+AttributeError: 'Worksheet' object has no attribute 'max_colomn'. Did you mean: 'max_column'?
+
+
+021
+单词拼写错误❌
+'str' object has no attribute 'splitt'. Did you mean: 'split'?
+
+022
+单词拼写错误❌
+NameError: name 'mouth' is not defined. Did you mean: 'month'?
+
+023
+index从0开始，所以前2项是0和1
+sh1.cell(i + 1, 6).value = all_data[2][i]
+IndexError: list index out of range
+
+024
+修改参数时注意其主体：
+multi_part['From'] = Header('测试邮箱04','utf-8')
+multi_part['To'] = Header('employee04')
+multi_part['Subject'] = Header('测试添加多个附件04','utf-8')
+
+
+
+
+
+
+

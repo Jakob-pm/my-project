@@ -1,0 +1,26 @@
+提示：
+如果文本中有中文，注意检查中文逗点，很可能出现在这里
+bug来源：中文符号、空格、名称不对应、input和output搞混，少写一个括号
+# 容易把i误写成1
+
+001
+url写成了ulr
+
+002
+NameError: name 'reason' is not defined
+全局变量的问题，--》
+在html第一次出现的的地方（第一个函数里），用python自带的global函数把它变成全局变量。
+
+
+003
+第一个有价值的bug:
+<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>
+
+fatal error: 'portaudio.h' file not found #include "portaudio.h-->
+原因是缺少需要调用的系统portaudio库，需要先安装此库 。而安装portaudio,需要通过homebrew工具，来安装。系统上没有brew，百度了很多安装都失败了。
+解决：Successfully installed PyAudio-0.2.13！！
+
+
+在 'ssl.pyi' 中找不到引用 '_create_unverified_context' --->
+忽略，如果需要解决，应该把PyAudio加到环境变量里，但是我不会！
+

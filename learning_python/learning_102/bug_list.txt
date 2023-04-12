@@ -1,0 +1,66 @@
+#### 第一个bug
+题目：
+012 学生成绩排序
+
+原始文档：
+student_grade_input.txt
+101,小张，88
+102,小王，77
+103,小李，99
+104,小赵，66
+105,小强，55
+
+
+代码内容：
+def read_file():
+    res = []
+    with open('./student_grade_input.txt') as fin:
+        for line in fin:
+            line = line[:-1]
+            res.append(line.split(','))
+    return res
+
+def sort_grades(datas):
+    # res2 =
+    return sorted(datas,
+                  key=lambda x:  int(x[2]),
+                  reverse=True)
+    '''for row in rows:
+        try:
+            city = row.split(',')[2]
+        except:
+            continue'''
+
+
+
+# 第一步：读取文件
+datas = read_file()
+print(datas)
+# print(len(datas))
+# 第二步：排序文件
+datas = sort_grades(datas)
+print(datas)
+
+bug描述：
+[['101', '小张，88'], ['102', '小王，77'], ['103', '小李，99'], ['104', '小赵，66'], ['105', '小强，55']]
+Traceback (most recent call last):
+  File "/Users/jakob_pc/PycharmProjects/learning python/learning_001/102_day1.py", line 338, in <module>
+    datas = sort_grades(datas)
+  File "/Users/jakob_pc/PycharmProjects/learning python/learning_001/102_day1.py", line 324, in sort_grades
+    return sorted(datas,
+  File "/Users/jakob_pc/PycharmProjects/learning python/learning_001/102_day1.py", line 325, in <lambda>
+    key=lambda x:  int(x[2]),
+IndexError: list index out of range
+
+
+root cause:
+原始文档在录入时，输入汉字后的'，'下意识地输成了汉语符号，
+因此第2列的数据和第3列的数据实际没有区分开
+可以从
+[['101', '小张，88'], ['102', '小王，77'], ['103', '小李，99'], ['104', '小赵，66'], ['105', '小强，55']]
+这个结果中看出；
+
+提示：
+如果文本中有中文，注意检查中文逗点，很可能出现在这里
+bug来源：中文符号、空格、名称不对应、input和output搞混，少写一个括号
+# 容易把i误写成1
