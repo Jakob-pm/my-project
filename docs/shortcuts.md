@@ -207,6 +207,7 @@ https://www.bilibili.com/video/BV12K4y1g7Nf/?spm_id_from=333.337.search-card.all
 - 长按空格键可以快速预览
 - 访达下打开一个新的访达窗口：com+N--》关闭是com+W；
 - com+shift+N，创建新文件夹
+- com+shift+.，显示隐藏文件夹
 
 ## 窗口
 
