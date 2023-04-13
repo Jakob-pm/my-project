@@ -1,2 +1,3 @@
-{'id': 10001, 'name': '张三', 'chinese': 45, 'eng': 28, 'math': 32}
+{'id': 10001, 'name': '张三', 'chinese': 38, 'eng': 52, 'math': 49}
 {'id': 10002, 'name': '李四', 'chinese': 89, 'eng': 93, 'math': 97}
+{'id': 10003, 'name': '王五', 'chinese': 93, 'eng': 46, 'math': 68}
