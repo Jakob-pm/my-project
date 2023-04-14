@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--此处为注释-->
+<!--head是网页头-->
+<head>
+    <!--meta charset为解码类型-->
+    <meta charset="UTF-8">
+    <!--主题-->
+    <title>中国联通</title>
+</head>
+<!--body是网页体-->
+<body>
+<!--标题-->
+<h1>1级标题</h1>
+<h2>2级标题</h2>
+<h3>3级标题</h3>
+<h4>4级标题</h4>
+<h5>5级标题</h5>
+<h6>6级标题</h6>
+<!--div标签一个占一整行，【块级标签】-->
+<div style="color:blue;">山东蓝翔</div>
+<div style="color:blue;">挖掘机哪家强</div>
+<!--span标签一个占一整行，【行内标签、内联标签】-->
+<span style="color:red;">山东蓝翔</span>
+<span style="color:red;">挖掘机哪家强</span>
+<!--放在一行没有空格，换行会生成空格-->
+<span style="color:yellow;">山东蓝翔</span><span style="color:yellow;">挖掘机哪家强</span>
+<div>
+    <span style="color:green;">时间：</span>
+    <span>2023-04-13</span>
+</div>
+<!--超链接 a标签-->
+<a href="https://www.baidu.com">点击跳转</a>
+<!--站内跳转-->
+<a href="/get_news">点击跳转</a>
+<!--图片 自闭合标签-->
+<!--没有加载出来，可能加了防盗链-->
+<!--可以把图片存在自己的对象储存桶里-->
+<img src="https://img1.doubanio.com/view/subject/l/public/s34368820.jpg" />
+<!--下面这个可以加载，应该是豆瓣加了防盗链-->
+<div>
+    <img style="height: 300px; width: 480px" src="https://p5.itc.cn/images01/20230413/64ceede9b65d493bad58d41031416f0e.jpeg"/>
+</div>
+<!--只定义高度或宽度是按比例缩放-->
+<div>
+    <img style="height: 100px" src="https://p5.itc.cn/images01/20230413/64ceede9b65d493bad58d41031416f0e.jpeg"/>
+</div>
+<!--显示本地图片，图片要放在static目录里-->
+<div>
+    <img src="/static/douban.png"/>
+</div>
+<!--按百分比缩放，只能按宽度？？-->
+<div>
+    <img style="width: 10%" src="/static/douban.png"/>
+</div>
+<!--嵌套标签-->
+<div>
+    <a href="https://movie.douban.com/subject/30159288/">
+        <img src="/static/dahemei.png"/>
+    </a>
+</div>
+<!--打开新的标签页-->
+<div>
+    <a href="https://movie.douban.com/subject/30159288/" target="_blank">
+        <img src="/static/dahemei.png"/>
+    </a>
+</div>
+<!--列表标签-->
+<h1>欧冠球队</h1>
+<ul>
+    <li>多特蒙德</li>
+    <li>曼城</li>
+    <li>皇马</li>
+    <li>切尔西</li>
+</ul>
+
+<h2>欧联球队</h2>
+<ol>
+    <li>巴萨</li>
+    <li>阿森纳</li>
+    <li>曼联</li>
+    <li>塞维利亚</li>
+</ol>
+<!--表格标签-->
+<h3>优秀球员</h3>
+<table border="1">
+    <thead>
+    <tr><th>ID</th> <th>name</th> <th>age</th> </tr>
+    </thead>
+    <tbody>
+    <tr> <td>01</td> <td>Halaad</td> <td>22</td> </tr>
+    <tr> <td>02</td> <td>Mubapei</td> <td>23</td> </tr>
+    <tr> <td>03</td> <td>Messi</td> <td>35</td> </tr>
+    <tr> <td>04</td> <td>Enzo</td> <td>22</td> </tr>
+    <tr> <td>05</td> <td>Antoni</td> <td>25</td> </tr>
+    <tr> <td>06</td> <td>Kevin</td> <td>32</td> </tr>
+    <!--复制本行 ctr+D-->
+    </tbody>
+</table>
+<!--表单标签-->
+<h1>用户列表</h1>
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>头像</th>
+            <th>name</th>
+            <th>age</th>
+            <th>邮箱</th>
+            <th>更多信息</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>
+            <img src="/static/halland.png" alt="" style="height:50px">
+        </td>
+        <td>哈兰德</td>
+        <td>22</td>
+        <td>halland@hupu.com</td>
+        <td>
+            <a href="https://bbs.hupu.com/59315459.html" target="_blank">点击查看详情</a>
+        </td>
+        <td>
+            编辑
+            删除
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>
+            <img src="/static/mubapei.png" alt="" style="height:50px">
+        </td>
+        <td>姆巴佩</td>
+        <td>23</td>
+        <td>mubapei@hupu.com</td>
+        <td>
+            <a href="https://bbs.hupu.com/57068111.html" target="_blank">点击查看详情</a>
+        </td>
+        <td>
+            编辑
+            删除
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>
+            <img src="/static/meisse.png" alt="" style="height:50px">
+        </td>
+        <td>梅西</td>
+        <td>35</td>
+        <td>meisse@hupu.com</td>
+        <td>
+            <a href="https://voice.hupu.com/bbs/57787777" target="_blank">点击查看详情</a>
+        </td>
+        <td>
+            编辑
+            删除
+        </td>
+    </tr>
+    <!--复制本行 ctr+D-->
+    </tbody>
+</table>
+
+</body>
+</html>
