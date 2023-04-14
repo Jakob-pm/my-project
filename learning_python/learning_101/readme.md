@@ -6,6 +6,9 @@ author: Jakob
 马士兵教育，杨淑娟，图解python入门课程
 https://www.bilibili.com/video/BV1wD4y1o7AS/?spm_id_from=333.999.0.0&vd_source=30bab237673b3b5ce295ed306c7fe29c
 
+银角大王，web开发全家桶
+https://www.bilibili.com/video/BV1rT4y1v7uQ/?p=2&spm_id_from=pageDriver&vd_source=30bab237673b3b5ce295ed306c7fe29c
+
 date = 03032023
 author = Jakob
 print('hello world!')
@@ -43,10 +46,19 @@ else: pass和return是否都可以不写？
 目前完成新增+查询+删除
 
 ### 101_day7 学生信息管理系统继续整理
-date: 04/12/2023
+date: 04/13/2023
 开始时间：下午1：27
 已经推送到github上，今天把代码中剩余的函数搞一下，同时做一个系统流程图
 修改和排序部分
 要注意文件中和缓存列表中每个字段的数据类型
 如何处理总分总，并且分的时候会出现重新返回循环的情况，用flag，具体在testcase_02里
+
+### 101_day8 开启Django前后端学习
+date: 04/14/2023
+开始时间：下午1：59
+P2，前端引入和html标签
+一句里面引号如果有包含关系，需要用双引号和单引号区分
+今天学了flask功能，html标签包括meta charset为解码类型、<!--标题-->、div标签、span标签、a标签、
+嵌套标签、列表标签和表格标签
+明天继续input标签
 
