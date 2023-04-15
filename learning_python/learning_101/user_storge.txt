@@ -1,0 +1,5 @@
+{'用户名': 'admin', '密码': '123123', '性别': '男', '爱好': ['唱'], '城市': '上海', '特长': ['软考', 'ACP'], '备注': None}
+{'用户名': 'admin', '密码': '123123', '性别': '男', '爱好': ['唱'], '城市': '上海', '擅长领域：': ['阿里嘎多美羊羊桑'], '备注': 'vdfgdgndvdfv\\r\\nsdfgsdfgdsfb\\r\\ngdfdfbdf'}
+{'用户名': 'admin', '密码': '123123', '性别': '男', '爱好': ['跳'], '城市': '上海', '擅长领域：': ['阿里嘎多美羊羊桑'], '备注': 'sgnbcfgghjggh\r\nxvdbxnbgngj\r\nxcvbdghfhfhfj\r\n'}
+{'用户名': 'admin', '密码': '123123', '性别': '男', '爱好': ['跳', 'rap'], '城市': '上海', '擅长领域：': ['阿里嘎多美羊羊桑'], '备注': 'dudgfhjjfbfdgj\r\ndvddh\r\nbdbfjkgmhhjg'}
+{'用户名': 'admin', '密码': '123123', '性别': '男', '爱好': ['跳', 'rap'], '城市': '上海', '擅长领域：': ['一切邪恶终将绳之于法', '鸡汤来喽'], '备注': 'dfdgdfdsfhfsgh\r\nsdvdfbdfbdf\r\nfbsfgbsfgbfs\r\nfngfgn'}

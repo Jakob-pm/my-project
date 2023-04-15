@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>💾 表单标签</title>
+</head>
+<body>
+
+<!--表单标签-->
+<h1>用户列表</h1>
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>头像</th>
+            <th>name</th>
+            <th>age</th>
+            <th>邮箱</th>
+            <th>更多信息</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>
+            <img src="/static/halland.png" alt="" style="height:50px">
+        </td>
+        <td>哈兰德</td>
+        <td>22</td>
+        <td>halland@hupu.com</td>
+        <td>
+            <a href="https://bbs.hupu.com/59315459.html" target="_blank">点击查看详情</a>
+        </td>
+        <td>
+            编辑
+            删除
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>
+            <img src="/static/mubapei.png" alt="" style="height:50px">
+        </td>
+        <td>姆巴佩</td>
+        <td>23</td>
+        <td>mubapei@hupu.com</td>
+        <td>
+            <a href="https://bbs.hupu.com/57068111.html" target="_blank">点击查看详情</a>
+        </td>
+        <td>
+            编辑
+            删除
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>
+            <img src="/static/meisse.png" alt="" style="height:50px">
+        </td>
+        <td>梅西</td>
+        <td>35</td>
+        <td>meisse@hupu.com</td>
+        <td>
+            <a href="https://voice.hupu.com/bbs/57787777" target="_blank">点击查看详情</a>
+        </td>
+        <td>
+            编辑
+            删除
+        </td>
+    </tr>
+    <!--复制本行 ctr+D-->
+    </tbody>
+</table>
+
+<!--input标签-->
+<h1>输入内容</h1>
+<div>
+    <input type="text"/>
+    <input type="password"/>
+    <input type="file">
+
+    <input type="radio" name = 'gender'>男
+    <input type="radio" name = 'gender'>女
+
+    <input type="checkbox">唱
+    <input type="checkbox">跳
+    <input type="checkbox">rap
+    <input type="checkbox">篮球
+    <input type="checkbox">两年半
+
+    <input type="button" value="登录">
+    <input type="button" value="提交">
+    <!--普通按钮-->
+    <input type="submit" value="提交">
+    <!--提交表单-->
+</div>
+
+<!--下拉框-->
+<h1>下拉框</h1>
+<div>
+    <select>
+        <option>点赞</option>
+        <option>投币</option>
+        <option>收藏</option>
+        <option>转发</option>
+    </select>
+    <select multiple>
+        <option>点赞</option>
+        <option>投币</option>
+        <option>收藏</option>
+        <option>转发</option>
+    </select>
+</div>
+
+<!--多行文本-->
+<h1>多行文本</h1>
+<div>
+    <textarea rows="3"></textarea>
+</div>
+
+<!--案例-->
+<h1>用户注册</h1>
+<div>
+    <img style="height: 100px" src="/static/register.png"/>
+</div>
+<div>
+    用户名：<input type="text"/>
+</div>
+<div>
+    密码：<input type="password"/>
+</div>
+<div>
+    性别：
+    <input type="radio" name = 'gender'>男
+    <input type="radio" name = 'gender'>女
+</div>
+<!--tab键自动补全-->
+<div>
+    爱好：
+    <input type="checkbox">唱
+    <input type="checkbox">跳
+    <input type="checkbox">rap
+    <input type="checkbox">篮球
+    <input type="checkbox">两年半
+</div>
+<div>
+    城市：
+    <select name="城市：" id="">
+        <option value="北京">北京</option>
+        <option value="上海">上海</option>
+        <option value="深圳">深圳</option>
+        <option value="广州">广州</option>
+    </select>
+</div>
+
+<div>
+    擅长领域：
+    <select name="擅长领域" id="" multiple>
+        <option value="PMP">PMP</option>
+        <option value="ACP">ACP</option>
+        <option value="NPDP">NPDP</option>
+        <option value="软考">软考</option>
+    </select>
+</div>
+<div>
+    备注：
+    <textarea></textarea>
+</div>
+<div>
+    <input type="button" value="button按钮">
+    <input type="submit" value="submit按钮">
+</div>
+</body>
+</html>

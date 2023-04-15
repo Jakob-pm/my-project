@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+</head>
+<body>
+<h1>用户注册</h1>
+
+<form method="post" action="/register">
+    <div>
+        用户名：
+        <input name="user" type="text"/>
+    </div>
+    <div>
+        密码：
+        <input name="pwd" type="password"/>
+    </div>
+    <div>
+        <input type="radio" name="gender" value="1">男
+        <input type="radio" name="gender" value="0">女
+    </div>
+    <div>
+        爱好：
+        <input type="checkbox" name="hobby" value="0">唱
+        <input type="checkbox" name="hobby" value="1">跳
+        <input type="checkbox" name="hobby" value="2">rap
+        <input type="checkbox" name="hobby" value="3">两年半
+    </div>
+    <div>
+        城市：
+        <select name="city" id="">
+            <!--alt + shift insert多行光标操作-->
+            <option value="0">北京</option>
+            <option value="1">上海</option>
+            <option value="2">深圳</option>
+            <option value="3">广州</option>
+            <option value="4">张店</option>
+            <option value="5">青岛</option>
+            <option value="6">怒江</option>
+        </select>
+    </div>
+    <div>
+        擅长领域：
+        <select name="strength" id="" multiple>
+            <option value="0">阿里嘎多美羊羊桑</option>
+            <option value="1">一切邪恶终将绳之于法</option>
+            <option value="2">鸡汤来喽</option>
+            <option value="3">战鹰</option>
+        </select>
+    </div>
+    <div>
+        备注：
+        <textarea name="remark" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="submit按钮">
+    </div>
+</form>
+
+</body>
+</html>
