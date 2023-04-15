@@ -62,3 +62,23 @@ P2，前端引入和html标签
 嵌套标签、列表标签和表格标签
 明天继续input标签
 
+### 101_day8 开启Django前后端学习
+date: 04/15/2023
+开始时间：下午1：00
+P6 表单标签
+tab键自动补全
+input标签(7种)、下拉框、多行文本
+input标签包括：text, password, file, radio, checkbox,button & submit
+案例，用户注册界面
+标签包括：
+h/div/span/a/img/ul/ol/table/textarea/select
+案例：用户注册
+GET请求【URL方法、表单提交】
+POST请求【表单提交】
+表单提交包括：form标签包裹提交的数据标签，提交方式，提交地址，form标签里要有submit标签
+ImmutableMultiDict([('user', 'admin'), ('pwd', '123123'), ('gender', '1'), ('hobby', '0'), ('hobby', '1'), ('hobby', '2'), ('hobby', '3'), ('city', '1'), ('strength', '31'), ('remarks', 'vdfgdgndvdfv\r\nsdfgsdfgdsfb\r\ngdfdfbdf')])
+'爱好': ['唱']
+'备注': None
+request.form.get只能获得一个-->
+request.values.getlist可以获取列表
+明天是CSS，然后是BootSrap，之后前端总结，接下来学习MySQL数据库
