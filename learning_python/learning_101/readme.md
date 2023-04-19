@@ -82,3 +82,22 @@ ImmutableMultiDict([('user', 'admin'), ('pwd', '123123'), ('gender', '1'), ('hob
 request.form.get只能获得一个-->
 request.values.getlist可以获取列表
 明天是CSS，然后是BootSrap，之后前端总结，接下来学习MySQL数据库
+
+### 101_day9 CSS开始
+date: 04/19/2023
+开始时间：下午22：25
+CSS样式，在标签中、在head中、在CSS文件中写（可以在多个html中应用）
+<!--引入CSS文件-->
+<link rel="stylesheet" href="/static/common.css">
+配置好之后，command+s可以直接预览网页效果
+选择器：类选择器、i的选择器、后代选择器、元素选择器、通配符
+<!--类选择器，与class关联, .c1-->
+<!--ID选择器，与ID关联, #c2-->
+<!--标签选择器，与标签关联, li-->
+一般最常用的是类选择器
+属性选择器、后代选择器
+<!--属性选择器，与标签内某一属性关联,.v1[xx='999']-->
+<!--子选择器，与标签内子标签关联,.port > a(>代表只对子标签生效)-->
+常用：类选择器、标签选择器、后代选择器
+非常用：属性选择器、ID选择器
+明天继续继承和覆盖

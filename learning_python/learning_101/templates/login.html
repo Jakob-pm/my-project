@@ -3,16 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <title>登录页面</title>
+    <!--引入CSS文件-->
+    <link rel="stylesheet" href="/static/common.css">
+    <!--类选择器，与class关联, .c1-->
+    <!--ID选择器，与ID关联, #c2-->
+    <!--标签选择器，与标签关联, li-->
+    <!--属性选择器，与标签内某一属性关联,.v1[xx='999']-->
+    <!--子选择器，与标签内子标签关联,.port > a(>代表只对子标签生效)-->
+
+    <style>
+        .c1{
+        color:green;
+        }
+        #c2{
+            color:orange;
+        }
+        .eu li{
+            color:pink;
+        }
+        input[type="text"]{
+            border:5px solid red;
+            height:50px;
+        }
+        .v1[xx='456']{
+            color:purple;
+        }
+        .v1[xx='123']{
+            color:white;
+        }
+        .v1[xx='999']{
+            color:red;
+        }
+        .v1[xx='798']{
+            color:blue;
+        }
+        .v1[xx='666']{
+            color:yellow;
+        }
+        .port > a{
+            color:lightblue;
+        }
+    </style>
+
 </head>
 <body>
 
-<h1>用户登录</h1>
+<h1 class="c1">用户登录</h1>
 
 <form method="post" action="/login">
   用户名：<input type="text" name="user">
-  密码：<input type="text" name="pwd">
+  密码：<input type="password" name="pwd">
   <input type="submit" name="提交">
 </form>
+
+<div id="c2">中国</div>
+<div>广西</div>
+<div>联通</div>
+<ul>
+    <li>北京</li>
+    <li>上海</li>
+    <li>深圳</li>
+</ul>
+
+<input type="text">
+<input type="password">
+
+<div class="v1" xx="123">皇马</div>
+<div class="v1" xx="456">湖人</div>
+<div class="v1" xx="999">利物浦</div>
+<div class="v1" xx="798">切尔西</div>
+<div class="v1" xx="666">多特蒙德</div>
+
+<div class="eu">
+    <ul>
+        <li>德国</li>
+        <li>芬兰</li>
+        <li>土耳其</li>
+    </ul>
+</div>
+
+<div class="port">
+    <a href="">知乎</a>
+    <span>
+        <a href="">豆瓣</a>
+    </span>
+</div>
 
 </body>
 </html>

@@ -7,6 +7,7 @@
     <list default="true" id="2809180d-5d0f-4fbd-9501-c3e0323e2f12" name="Changes" comment="Changes">
       <change afterPath="$PROJECT_DIR$/learning_101/101_day8.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/101_day9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning_101/static/common.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/static/dahemei.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/static/douban.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/static/halland.png" afterDir="false" />
@@ -57,7 +58,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "/Users/jakob_pc/my-project/learning_python/learning_101/static",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
   }
 }]]></component>
   <component name="RecentsManager">
