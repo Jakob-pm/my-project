@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择器</title>
+  <!--为什么这里style比title往前提了2格？-->
+  <style>
+    body{
+        margin:0;
+    }
+    .c1{
+      color: red !important;
+      border:1px solid red;
+    }
+    .c2{
+      font-size:28px;
+      color:green;
+    }
+    .c3{
+     height:300px;
+     width:500px;
+    }
+    .c4{
+      width:20%;
+    }
+    .c5{
+      display: inline-block;
+      height: 100px;
+      width: 300px;
+      border: 1px solid red;
+    }
+    .c6{
+      color:green;
+    }
+    .c7{
+      color:#32CD32;
+    }
+    .c8{
+      color:#FFDEAD;
+      font-size:58px;
+      font-weight:800;
+      font-family: Menlo,Monaco,Consolas;
+    }
+    .c9{
+      color:black;
+      font-size:38px;
+      font-family: Microsoft YaHei;
+    }
+    .c10{
+      color:black;
+      font-size:38px;
+      font-family: PingFang SC;
+    }
+    .c11{
+      color:black;
+      font-size:38px;
+      font-family: WenQuanYi Micro Hei;
+    }
+    .c12{
+      color:black;
+      font-size:38px;
+      font-family: STKaiti;
+    }
+    .c13{
+      color:black;
+      font-size:38px;
+      font-family: STXinwei;
+    }
+    .c14{
+      height:59px;
+      width:300px;
+      border: 1px solid red;
+      text-align: center;/* 水平方向居中 */
+      line-height: 59px;/* 垂直方向居中 */
+    }
+   .item{
+      float:left;
+      width:180px;
+      height: 170px;
+      border: 1px solid red;
+    }
+ .outer{
+      border: 1px solid red;
+      height: 400px;
+      width: 200px;
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+ .outside{
+      border: 1px solid red;
+      height: 200px;
+      padding: 20px;
+      background-color:red;
+      margin-top:20px;
+    }
+ .c15{
+    width:500px;
+    background-color:pink;
+    height:1000px;
+    margin: 0 auto;
+ }
+  </style>
+</head>
+<body>
+
+<div class="c1 c2">标签多个类</div>
+<!--如果标签有2个类，效果会组合出现，如果有同一个属性，比如颜色，以后出现的为准-->
+<!--如果要求后续的同类属性不要覆盖，则用!important作标记-->
+
+<div class="c3">高度和宽度</div>
+<div class="c4">高度和宽度示例</div>
+<!--宽度可以支持百分比-->
+<!--行内标签高度和宽度默认不生效-->
+<span class="c3">行内标签不生效</span>
+<!--CSS样式：display:inline-block 行内块标签-->
+<span class="c5">行内块标签</span>
+<!--display:inline可以把div标签变成行内标签-->
+<div style="display: inline;">块标签</div>
+<span>行内标签</span>
+<!--一般常用块级 + 块级&行内标签-->
+<div class="c6">颜色设置</div>
+<div class="c7">RGB颜色设置</div>
+<div class="c8">RGB颜色设置</div>
+<div class="c8">测试字体，多打几个字感受一下</div>
+<div class="c9">测试字体，多打几个字感受一下</div>
+<div class="c10">测试字体，多打几个字感受一下</div>
+<div class="c11">测试字体，多打几个字感受一下</div>
+<div class="c12">测试字体，多打几个字感受一下</div>
+<div class="c13">测试字体，多打几个字感受一下</div>
+<!--文字对齐方式-->
+<div class="c14">边框与对齐</div>
+<div class="c14">边框与对齐</div>
+<div class="c14">边框与对齐</div>
+<!--浮动-->
+<div>
+    <span style="float: left">左边</span>
+    <span style="float: right">右边</span>
+</div>
+<!--div浮动之后不再覆盖整行-->
+<div class="item"></div>
+<div class="item"></div>
+<div class="item"></div>
+<div class="item"></div>
+<!--标签浮动起来后，会脱离文档流。-->
+<div style="background-color:blue">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div style="clear: both;"></div>
+</div>
+<div>已经换行</div>
+<!--边距-->
+<!--为什么这里div能套div？？-->
+<div class="outer">
+    <div style="background-color: orange">窗外的麻雀</div>
+    <div>稻香稻香稻香</div>
+</div>
+<div class="outside">外边距</div>
+
+<div class="c15"></div>
+
+</body>
+</html>
+
