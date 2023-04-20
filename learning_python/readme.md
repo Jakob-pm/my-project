@@ -102,6 +102,10 @@ https://www.bilibili.com/video/BV17a411o7Hh/?spm_id_from=333.999.0.0
 
 https://www.bilibili.com/video/BV1wD4y1o7AS?p=2&vd_source=30bab237673b3b5ce295ed306c7fe29c
 
+豆瓣250爬取项目
+
+https://www.aidaxue.com/course/courseDetail?id=580
+
 ### todos:
 
 - [x] 自动下载脚本的重构 04/20
