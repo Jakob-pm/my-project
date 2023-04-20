@@ -12,3 +12,6 @@
 
 # 忽略site文件
 site/
+
+# 忽略文件
+Python_datas/waterRPA/.idea/vcs.xml
