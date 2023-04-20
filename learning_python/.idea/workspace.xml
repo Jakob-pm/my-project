@@ -19,9 +19,12 @@
       <change afterPath="$PROJECT_DIR$/learning_101/templates/index02.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/templates/login.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning_101/templates/selector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning_101/templates/xiaomi.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/testcase_05.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/user_storge.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning_101/101-day6.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_101/101_day6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning_101/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/learning_101/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "/Users/jakob_pc/my-project/learning_python/learning_101/static",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">

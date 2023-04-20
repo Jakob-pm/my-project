@@ -90,7 +90,7 @@ CSS样式，在标签中、在head中、在CSS文件中写（可以在多个html
 <!--引入CSS文件-->
 <link rel="stylesheet" href="/static/common.css">
 配置好之后，command+s可以直接预览网页效果
-选择器：类选择器、i的选择器、后代选择器、元素选择器、通配符
+选择器：类选择器、id选择器、后代选择器、元素选择器、通配符
 <!--类选择器，与class关联, .c1-->
 <!--ID选择器，与ID关联, #c2-->
 <!--标签选择器，与标签关联, li-->
@@ -101,3 +101,28 @@ CSS样式，在标签中、在head中、在CSS文件中写（可以在多个html
 常用：类选择器、标签选择器、后代选择器
 非常用：属性选择器、ID选择器
 明天继续继承和覆盖
+
+open -a typora readme.md，可以直接在终端打开文件
+
+### 101_day10 CSS继续
+date: 04/20/2023
+开始时间：下午13：23
+学会在Chrome里开发者模式查看网页的源代码
+command+shift+a查找操作
+command+del删除整行
+CSS里注释用/* 注释内容 */
+覆盖与继承：如果标签有2个类，效果会组合出现，如果有同一个属性，比如颜色，以后出现的为准；
+如果要求后续的同类属性不要覆盖，则用!important作标记
+高度和宽度：宽度可以支持百分比，行内标签高度和宽度默认不生效
+CSS样式：display:inline-block 行内块标签
+display:inline可以把div标签变成行内标签
+一般常用块级 + 块级&行内标签
+颜色和字体设置：颜色也可以直接用RGB颜色，字体设置用font-family
+text-align: center;/* 水平方向居中 */
+line-height: 59px;/* 垂直方向居中 */
+案例总结：
+body标签去除边距，margin：0；
+内容居中，文本居中：text-align: center;
+区域居中：设置宽度，然后margin: auto;
+
+
