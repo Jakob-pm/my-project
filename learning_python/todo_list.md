@@ -50,6 +50,12 @@ CSS选择器，明天继续继承和覆盖
 
 P10已经搞完，明天继续小米商城的案例
 
+RGB颜色对照表：https://zhuanlan.zhihu.com/p/506711409
+
+这个课程一共是47个小时，如果1天完成2个小时的内容，需要24天，应该还需要20天左右；
+
+下载新闻的脚本重构了一版，明天试用ok的话就放到github上；
+
 
 
 ## backlog list
@@ -65,11 +71,12 @@ https://www.bilibili.com/video/BV1o24y1e7rg/?spm_id_from=333.1007.tianma.38-4-15
 ### todos
 
 - [ ] mkdocs 目录的搭建和管理
-- [ ] 自动下载脚本的重构
 - [ ] pyautogui整理
 - [ ] re规则整理
 - [ ] git版本管理，如果出现本地和线上文件或内容冲突怎么办？
 - [ ] .gitignore的用法
+- [ ] 爬取自己的b站收藏夹，https://www.bilibili.com/video/BV15b4y1Z7zB/?spm_id_from=333.999.0.0
+- [ ] if else循环减少重复代码：https://www.cjavapy.com/article/656/ 使用**[**bisect]实现和使用next和zip实现需要学习
 
 ## 已完成
 
@@ -97,6 +104,7 @@ https://www.bilibili.com/video/BV1wD4y1o7AS?p=2&vd_source=30bab237673b3b5ce295ed
 
 ### todos:
 
+- [x] 自动下载脚本的重构 04/20
 - [x] github和mkdocs服务使用
-- [ ] 终端设置自动运行.py脚本
+- [x] 终端设置自动运行.py脚本
 
