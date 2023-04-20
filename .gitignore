@@ -1,0 +1,14 @@
+# created by virtualenv automatically
+
+# 忽略.DS_Store文件
+.DS_Store
+**/.DS_Store
+
+# 忽略venv文件
+**/venv/
+
+# 忽略idea文件
+**/idea/
+
+# 忽略site文件
+site/
