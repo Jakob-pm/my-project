@@ -15,3 +15,6 @@ site/
 
 # 忽略文件
 Python_datas/waterRPA/.idea/vcs.xml
+
+# 忽略文件
+learning_python/learning_101/.DS_Store
