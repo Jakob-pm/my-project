@@ -20,6 +20,24 @@ https://www.aidaxue.com/course/courseDetail?id=580
 
 https://www.bilibili.com/video/BV1rT4y1v7uQ/?p=2&spm_id_from=pageDriver&vd_source=30bab237673b3b5ce295ed306c7fe29c 
 
+```bash
+# 第一步 更新原有文件
+cd my-project
+git status
+git commit -a
+git push
+git status
+# 第二步 新增文件
+git status --ignored
+git add -f 
+git status
+git commit -m '0420_update_02'
+git push
+git status
+```
+
+
+
 ### 0419
 
 CSS选择器，明天继续继承和覆盖
@@ -28,7 +46,9 @@ CSS选择器，明天继续继承和覆盖
 
 今天继续选择器的继承和覆盖，把P9和P10搞完
 
-开始时间，下午1:00--
+开始时间，下午1:00--4:13
+
+P10已经搞完，明天继续小米商城的案例
 
 
 
