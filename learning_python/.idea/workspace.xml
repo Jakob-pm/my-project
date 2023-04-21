@@ -23,10 +23,11 @@
       <change afterPath="$PROJECT_DIR$/learning_101/templates/xiaomi.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/testcase_05.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/user_storge.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning_104/testcase_04.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning_101/101-day6.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_101/101_day6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning_101/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/learning_101/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_list.md" beforeDir="false" afterPath="$PROJECT_DIR$/todo_list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +37,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/learning_101" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,7 +75,7 @@
       <recent name="$PROJECT_DIR$/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.101_day9">
+  <component name="RunManager" selected="Python.testcase_04 (1)">
     <configuration name="101_day7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learning python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,7 +202,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testcase_04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="testcase_04 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learning python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,11 +210,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learning_101" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learning_104" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learning_101/testcase_04.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learning_104/testcase_04.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,19 +226,19 @@
     <list>
       <item itemvalue="Python.103_day5" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.testcase_04 (1)" />
       <item itemvalue="Python.101_day9" />
       <item itemvalue="Python.101_day8" />
       <item itemvalue="Python.testcase_02" />
-      <item itemvalue="Python.testcase_04" />
       <item itemvalue="Python.101_day7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testcase_04 (1)" />
         <item itemvalue="Python.101_day9" />
         <item itemvalue="Python.101_day8" />
         <item itemvalue="Python.testcase_02" />
         <item itemvalue="Python.101_day7" />
-        <item itemvalue="Python.testcase_04" />
       </list>
     </recent_temporary>
   </component>

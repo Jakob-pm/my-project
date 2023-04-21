@@ -77,6 +77,12 @@ https://www.bilibili.com/video/BV1o24y1e7rg/?spm_id_from=333.1007.tianma.38-4-15
 - [ ] .gitignore的用法
 - [ ] 爬取自己的b站收藏夹，https://www.bilibili.com/video/BV15b4y1Z7zB/?spm_id_from=333.999.0.0
 - [ ] if else循环减少重复代码：https://www.cjavapy.com/article/656/ 使用**[**bisect]实现和使用next和zip实现需要学习
+- [ ] 研究一下这个：https://github.com/Yixiaohan/show-me-the-code
+- [ ] awesomepython:https://github.com/vinta/awesome-python
+- [ ] 技术面试必备知识：https://github.com/CyC2018/CS-Notes
+- [ ] awesomespider:https://github.com/facert/awesome-spider
+- [ ] b站用户分析：https://github.com/airingursb/bilibili-user/issues
+- [ ] 学生培养管理系统：https://github.com/xiefan-guo/studentTrainPlan/blob/master/main.py
 
 ## 已完成
 
