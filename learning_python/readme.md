@@ -56,6 +56,16 @@ RGB颜色对照表：https://zhuanlan.zhihu.com/p/506711409
 
 下载新闻的脚本重构了一版，明天试用ok的话就放到github上；
 
+### 0421
+
+下载新闻的脚本重构有一些问题，主要是pyautogui的图像识别问题，另外有一个意外的情况是打开Chrome与python编辑器的跳出有影响，先想办法过去，后续再解决底层的问题
+
+明天继续CSS，同时考虑一下流程控制的问题
+
+
+
+
+
 
 
 ## backlog list
@@ -74,6 +84,10 @@ https://www.bilibili.com/video/BV1o24y1e7rg/?spm_id_from=333.1007.tianma.38-4-15
 - [ ] pyautogui整理
 - [ ] re规则整理
 - [ ] git版本管理，如果出现本地和线上文件或内容冲突怎么办？
+- [ ] 流程控制的思路总结
+- [ ] 如何return出一个全局变量给其他函数用？
+- [ ] 爬虫代理库
+- [ ] 小说稳定在线阅读的网站，用于爬取
 - [ ] .gitignore的用法
 - [ ] 爬取自己的b站收藏夹，https://www.bilibili.com/video/BV15b4y1Z7zB/?spm_id_from=333.999.0.0
 - [ ] if else循环减少重复代码：https://www.cjavapy.com/article/656/ 使用**[**bisect]实现和使用next和zip实现需要学习
