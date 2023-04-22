@@ -11,6 +11,7 @@
       <change afterPath="$PROJECT_DIR$/learning_101/static/dahemei.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/static/douban.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/static/halland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning_101/static/logo-mi2.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/static/meisse.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/static/mubapei.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/static/register.png" afterDir="false" />
@@ -23,11 +24,9 @@
       <change afterPath="$PROJECT_DIR$/learning_101/templates/xiaomi.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/testcase_05.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learning_101/user_storge.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning_104/testcase_04.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning_101/101-day6.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_101/101_day6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning_101/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/learning_101/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/learning_101" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

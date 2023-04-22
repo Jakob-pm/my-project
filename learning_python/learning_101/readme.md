@@ -15,18 +15,30 @@ print('hello world!')
 print('Goodbye')
 
 ## 目前课程内完成了：
-### 101_day1 数据类型，包括int、float、元祖、列表、字典等； 
+### 101_day1 数据类型
+
+包括int、float、元祖、列表、字典等； 
+
 目前没有学str的部分，后期补上
 包括：
 demo_dict, demo_item, demo_dict
 
-### 101_day2 循环，包括for-in循环和while循环
+### 101_day2 循环
+
+包括for-in循环和while循环
+
 具体的练习在demo_if中
 
-### 101_day3 函数的基本知识，包括类、对象、方法等，目前理解对类和方法的理解较差，后期需要实战中加深理解
+### 101_day3 函数的基本知识
+
+包括类、对象、方法等，目前理解对类和方法的理解较差，后期需要实战中加深理解
+
 没有练习
 
-### 101_day4 re正则表达式模块，有了最基础的了解，但需要很多的熟练度
+### 101_day4 re正则表达式模块
+
+有了最基础的了解，但需要很多的熟练度
+
 具体的练习在demo_re中
 
 ### 101_day5 今天做学生信息管理系统
@@ -126,3 +138,26 @@ body标签去除边距，margin：0；
 区域居中：设置宽度，然后margin: auto;
 
 
+
+### 101_day11 CSS案例：小米商城
+
+date: 04/20/2023
+开始时间：下午13：30
+
+pycharm里多行光标用alt
+
+案例部分：小米商城二级菜单区域，思路是先划分区域/搭建骨架，再完善样式和细节，即container+logo&menu-list
+
+块级标签的float：内部子版块分别float，然后加一行
+
+```<div style="clear:both;"></div>```
+
+高度：内部每个子版块都需要高度属性，为了避免重写，可以加一个ht class，然后每个子版块的类上都补充这个ht类；
+
+居中：字体上下居中，使line-height等于这个块的高度；图片居中，用padding约束上下的内边框；
+
+间距：用内边距拉开距离，padding:0 10px; 不要加margin外边距，具体的原因下次碰到再想；
+
+样式：顶满格用margin: 0 auto;
+
+a标签：变成块级标签--》display:inline-block;鼠标飘在上面变色--》a:hover；不显示下划线--》text-decoration: none; 在新窗口打开，用target="_blank"（这个是a标签的属性，不能写在style里面）；
