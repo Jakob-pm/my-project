@@ -27,6 +27,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning_101/101-day6.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_101/101_day6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning_101/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/learning_101/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning_101/testcase_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_101/testcase_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,7 @@
       <recent name="$PROJECT_DIR$/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.testcase_04 (1)">
+  <component name="RunManager" selected="Python.testcase_02">
     <configuration name="101_day7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learning python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,10 +235,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testcase_02" />
         <item itemvalue="Python.testcase_04 (1)" />
         <item itemvalue="Python.101_day9" />
         <item itemvalue="Python.101_day8" />
-        <item itemvalue="Python.testcase_02" />
         <item itemvalue="Python.101_day7" />
       </list>
     </recent_temporary>

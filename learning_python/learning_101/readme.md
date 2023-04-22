@@ -161,3 +161,8 @@ pycharm里多行光标用alt
 样式：顶满格用margin: 0 auto;
 
 a标签：变成块级标签--》display:inline-block;鼠标飘在上面变色--》a:hover；不显示下划线--》text-decoration: none; 在新窗口打开，用target="_blank"（这个是a标签的属性，不能写在style里面）；
+
+关于流程控制，if和for循环的综合使用，总结在testcase_02里
+
+
+
