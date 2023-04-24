@@ -74,7 +74,9 @@ pycharm添加多行光标使用alt
 
 流程控制：https://www.bilibili.com/video/BV1iS4y1R7dG/?spm_id_from=333.337.search-card.all.click&vd_source=30bab237673b3b5ce295ed306c7fe29c
 
+### 0424
 
+CSS明天可以完成&总结。先git推送一下，然后再操作tagesschau的下载。
 
 
 

@@ -6,6 +6,14 @@
   <style>
     body{
       margin:0;
+      font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    }
+    img{
+        width:100%;
+        height:100%;
+    }
+    .left{
+        float:left;
     }
     .container{
         width: 1226px;
@@ -71,6 +79,57 @@
         color: #333;
         font-size:16px;
     }
+    .news{
+        margin-top:14px;
+    }
+    .slider .sd-img{
+        width:1226px;
+        height:460px;
+    }
+    .news .channel{
+        width: 228px;
+        height: 164px;
+        padding:3px;
+        background-color: #333;
+    }
+    .news .channel .item{
+        width: 76px;
+        height: 82px;
+        float: left;
+        text-align: center;
+    }
+    .news .channel .item a{
+        display: inline-block;
+        padding-top:18px;
+        font-size:12px;
+        color: #fff;
+        text-decoration: none;
+        opacity:.7;
+
+    }
+    .news .channel .item a:hover{
+        opacity:1;
+    }
+    .news .channel .item img{
+        height:24px;
+        width:24px;
+        margin: 0 auto;
+        margin-bottom:4px;
+        display: block;
+    }
+    .news .list-item{
+        background-color: #757575;
+    }
+    .news .list-item img{
+        width: 316px;
+        height: 170px;
+    }
+    .download{
+        display: none;
+    }
+    .app:hover .download{
+        display: block;
+    }
   </style>
 </head>
 <body>
@@ -115,5 +174,69 @@
         <div style="clear: both;"></div>
     </div>
 </div>
+
+<div class="slider">
+    <div class="container">
+        <div class="sd-img">
+        <img src="/static/redmi12.png" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="news">
+    <div class="container">
+        <div class="channel left">
+            <div class="item">
+                <a href="https://www.mi.com/" target="_blank">
+                    <img src="/static/channel_item_01.png" alt="">
+                    <span>保障服务</span>
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.mi.com/" target="_blank">
+                    <img src="/static/channel_item_02.png" alt="">
+                    <span>企业团购</span>
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.mi.com/" target="_blank">
+                    <img src="/static/channel_item_03.png" alt="">
+                    <span>F码通道</span>
+            </div>
+            <div class="item">
+                <a href="https://www.mi.com/" target="_blank">
+                    <img src="/static/channel_item_04.png" alt="">
+                    <span>米粉卡</span>
+            </div>
+            <div class="item">
+                <a href="https://www.mi.com/" target="_blank">
+                    <img src="/static/channel_item_05.png" alt="">
+                    <span>以旧换新</span>
+            </div>
+            <div class="item">
+                <a href="https://www.mi.com/" target="_blank">
+                    <img src="/static/channel_item_06.png" alt="">
+                    <span>话费充值</span>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="list-item left" style="margin-left: 14px;">
+            <img src="/static/news_01.png" alt="">
+        </div>
+        <div class="list-item left" style="margin-left: 15px;">
+            <img src="/static/news_02.png" alt="">
+        </div>
+        <div class="list-item left" style="margin-left: 15px;">
+            <img src="/static/news_03.png" alt="">
+        </div>
+        <div class="clear:both"></div>
+    </div>
+</div>
+
+<div class="app">
+    下载app
+    <img src="/static/download.png" class="download" alt="">
+</div>
+
 </body>
 </html>
